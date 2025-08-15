@@ -1,12 +1,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: rgb(35, 35, 34);
+    background-color: rgb(63, 63, 63);
 }
 
 header {
     background-color: rgb(199, 31, 31);
-    color: rgb(43, 43, 42);
+    color: rgb(40, 40, 40);
     padding: 20px;
     text-align: center;
 }
@@ -18,7 +18,7 @@ header {
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 2px 2px 8px rgba(59, 59, 59, 0.1);
+    box-shadow: 2px 2px 8px rgb(23, 23, 23);
     transition: transform 0.2s;
 }
 
