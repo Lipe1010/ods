@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(35, 35, 34);
+}
+
+header {
+    background-color: rgb(199, 31, 31);
+    color: rgb(43, 43, 42);
+    padding: 20px;
+    text-align: center;
+}
+
+.ods {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.ods-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ods img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ods p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.ods:hover {
+    transform: scale(1.05);
+}
